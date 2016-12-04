@@ -32,6 +32,14 @@ public class TitleSceneController : MonoBehaviour
     }
 
     /// <summary>
+    /// ランキングシーンに遷移します。
+    /// </summary>
+    public void OnClick_Ranking()
+    {
+        SceneManager.LoadScene(SceneName.Ranking);
+    }
+
+    /// <summary>
     /// 遊び方シーンに遷移します。
     /// </summary>
     public void OnClick_Howto()
