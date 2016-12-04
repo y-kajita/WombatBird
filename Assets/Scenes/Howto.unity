@@ -178,6 +178,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &133250470 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114911732461213120, guid: 9d8ae155fadde4973800cdec0613f86b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1390064016}
+  m_Script: {fileID: 11500000, guid: f5e3cc54bc8a24ff798af0785afb04ee, type: 3}
 --- !u!1 &234025445
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +502,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1246069206}
+      - m_Target: {fileID: 133250470}
         m_MethodName: OnClick_Title
         m_Mode: 1
         m_Arguments:
@@ -604,7 +610,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1246069205
+--- !u!1001 &1390064016
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -646,9 +652,3 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d8ae155fadde4973800cdec0613f86b, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1246069206 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114911732461213120, guid: 9d8ae155fadde4973800cdec0613f86b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1246069205}
-  m_Script: {fileID: 11500000, guid: f5e3cc54bc8a24ff798af0785afb04ee, type: 3}
