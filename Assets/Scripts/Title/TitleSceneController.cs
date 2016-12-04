@@ -29,6 +29,7 @@ public class TitleSceneController : MonoBehaviour
     public void OnClick_Start()
     {
         SceneManager.LoadScene(SceneName.Main);
+		Time.timeScale = 1.0f;
     }
 
     /// <summary>
