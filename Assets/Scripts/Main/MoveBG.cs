@@ -17,8 +17,8 @@ public class MoveBG : MonoBehaviour {
 		movement = new Vector2 (
 			this.speed.x * this.direction.x,
 			this.speed.y * this.direction.y)*Time.deltaTime;
-		if (transform.localPosition.x <= -25.5) {
-			transform.localPosition.Set(51.0f, transform.localPosition.y, transform.localPosition.z);
+		if (transform.position.x <= -25.5) {
+			transform.position.Set(51.0f, transform.position.y, transform.position.z);
 		}
 
 	}
