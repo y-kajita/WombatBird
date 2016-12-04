@@ -24,6 +24,14 @@ public class TitleSceneController : MonoBehaviour
     #region public method
 
     /// <summary>
+    /// ゲームシーンに遷移します。
+    /// </summary>
+    public void OnClick_Start()
+    {
+        SceneManager.LoadScene(SceneName.Main);
+    }
+
+    /// <summary>
     /// 遊び方シーンに遷移します。
     /// </summary>
     public void OnClick_Howto()
