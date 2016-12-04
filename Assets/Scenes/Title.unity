@@ -422,7 +422,7 @@ Camera:
   m_GameObject: {fileID: 331848371}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 4
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -699,7 +699,7 @@ RectTransform:
   m_GameObject: {fileID: 1075304858}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000056, y: 1.0000056, z: 1.0000056}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1832431571}
   m_Father: {fileID: 305785945}
@@ -748,7 +748,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1075304861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1250185054}
+        m_MethodName: OnClick_Howto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1075304861
@@ -858,6 +869,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1195300209}
+--- !u!114 &1250185054 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114722154849250622, guid: 8c33040d55b374425a19d076b9d038a6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1518420647}
+  m_Script: {fileID: 11500000, guid: 6d067ddc6aebf4edfbd8852b7c7d4649, type: 3}
 --- !u!1 &1324624688
 GameObject:
   m_ObjectHideFlags: 0

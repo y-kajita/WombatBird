@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
-public class TitleSceneController : MonoBehaviour
+public class HowtoSceneController : MonoBehaviour
 {
     #region enum
 
@@ -24,11 +23,11 @@ public class TitleSceneController : MonoBehaviour
     #region public method
 
     /// <summary>
-    /// 遊び方シーンに遷移します。
+    /// タイトルシーンに遷移します。
     /// </summary>
-    public void OnClick_Howto()
+    public void OnClick_Title()
     {
-        SceneManager.LoadScene(SceneName.Howto);
+        SceneManager.LoadScene(SceneName.Title);
     }
 
     #endregion
